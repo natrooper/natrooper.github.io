@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Custom Properties */
+
+:root {
+    --leading: 2em;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.hero-bg{
+    background: rgb(136, 194, 198);
+    color: white;
+    text-align: center;
+}
+
+header{
+    padding: 1em 0;
+}
+
+.hero-bg a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section {
+margin: 0 1em;
+}
+
+h1 {font-size: 1.5rem;
+margin: 0em 0 0.5em;
+text-align: center;
+}
+
+#toptitle{
+    font-size: 3rem;
+}
+
+h1 span{
+    text-transform: uppercase;
+    display: blck;
+    font-size: 1.4rem;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+.hero-bg p {
+    margin: 0 1em em;
+}
+
+.form-container {
+    background-color: white;
+    margin: 10em 5em 0;
+    padding: 1em;
+}
+
+.google_translate_element {
+    background-color: red;
+    display: block;
+}
+
+label {
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+input[type=text] {
+    border: 2px solid rgb(163, 163, 163);
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 1em;
+    margin-top: 1.2em;
+}
+
+.form-container p {
+    color: gray;
+    margin-bottom: 1.5em;
+    font-weight: normal;
+    font-size: .9em;
+    margin-top: .3em;
+}
+
+input[type=button] {
+    background-color: rgb(100, 98, 205);
+    border: none;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 1em 0;
+    border-radius: .5em;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+input[type=smallbutton] {
+    background-color: lightgrey;
+    
+    
+    color: black;
+    width: 120px;
+    border-radius: .5em;
+  
+    cursor: pointer;
+}
+
+
+input[type=button]:hover {
+    background-color:rgb(51, 50, 112);
+}
+
+.authentic {
+    margin-top: 50px;
+    border: dashed;
+    color:rgb(100, 98, 205);
+    padding: 10px;
+    border-radius: .5em;
+}
+
+input[type=endbutton] {
+    margin-top: 2em;
+    background-color: rgb(136, 194, 198);
+    width: 100%;
+    font-weight: bold;
+    padding: 1em 0;
+    border-radius: .5em;
+    font-size: 1.3em;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    border-radius: .5em;
+  
+    cursor: pointer;
+}
+
+input[type=endbutton]:hover {
+    background-color:rgb(1, 161, 161);
+}
+
+input[type=smallbutton]:hover {
+    background-color:grey;
+}
+
+
+
+p {
+    line-height: var(--leading);
+}
+
+@media (min-width: 730px) {
+
+    section {
+        margin: 0 4em;
+    }
+
+    .form-container {
+        margin: 2em -4em 0;
+    }
+
+}
+
+
+
+#chat1{
+    color: rgb(100, 98, 205);
+    text-align: left;
+    margin: 0em 1em 1em 0em;
+}
+
+#chat2{
+    color: rgb(136, 194, 198);
+    text-align: left;
+    margin: 0em 1em 1em 0em;
+}
+
+#chat3{
+    color: rgb(100, 98, 205);
+    text-align: left;
+    margin: 0em 1em 1em 0em;
+}
+
+#chat4{
+    color: rgb(136, 194, 198);
+    text-align: left;
+    margin: 0em 1em 1em 0em;
+}
+
+#chat5{
+    color: rgb(100, 98, 205);
+    text-align: left;
+    margin: 0em 1em 1em 0em;
+}
+
+#chat6{
+    color: rgb(136, 194, 198);
+    text-align: left;
+    margin: 0em 1em 1em 0em;
+}
+
+#feedback1{
+    color: gray;
+}
+#feedback2{
+    color: gray;
+}
+#feedback3{
+    color: gray;
+}
+#feedback4{
+    color: gray;
+}
+#feedback5{
+    color: gray;
+}
+#feedback6{
+    color: gray;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/main.css">
+        <script type = "text/javascript">    
+            alert("Hello! I don't speak English very well, but I would like to ask you for directions and am using this app to chat with you.  This app will translate our messages so we can understand each other");  
+            </script>  
+    </head>
+<body>
+
+<h1 id="toptitle">GatorCom</h1>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  //new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  new google.translate.TranslateElement('google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<div class="hero-bg">
+    <section class="top">
+        <header>
+           
+        </header>
+
+        <h1>1. Type your message</h1>
+        <h1>2. Click "Send"</h1>
+        <h1>3. Change language</h1>
+
+       
+
+        <div class="form-container">
+            <form action="">
+            <div class ="form-left">
+                 <label for="city">Type your message here:</label>
+                 <input type="text" name="city" id="city">
+                 <p>Example: "Hi, how are you doing?"</p>
+            </div>
+  
+                <input type="button" value="Send" onclick= "othername()">
+            </form>
+            <script src="trans.js">
+            </script>
+        </div>
+ 
+        <div id="google_translate_element"></div>
+    </section>
+</div>
+
+
+<section class="authentic">
+<div class="chatroom">
+    
+    <h2 id="chat1" style="display: inline;">Messages appear here</h2>
+    <p id="feedback1" style="display: inline;">Feedback appears here</p>
+    <p></p>
+    <h2 id="chat2" style="display: inline;"></h2>
+    <p id="feedback2" style="display: inline;"></p>
+    <p></p>
+    <h2 id="chat3" style="display: inline;"></h2>
+    <p id="feedback3" style="display: inline;"></p>
+    <p></p>
+    <h2 id="chat4" style="display: inline;"></h2>
+    <p id="feedback4" style="display: inline;"></p>
+    <p></p>
+    <h2 id="chat5" style="display: inline;"></h2>
+    <p id="feedback5" style="display: inline;"></p>
+    <p></p>
+    <h2 id="chat6" style="display: inline;"></h2>
+    <p id="feedback6" style="display: inline;"></p>
+    <p></p>
+    <input type="smallbutton" value="I understand" onclick= "feedback(1)">
+    <input type="smallbutton" value="I don't understand" onclick= "feedback(0)">
+</div>
+</section>
+<section class="endgame">
+    <form action="">
+     <input type="endbutton" value="End chat and take survey" onclick= "feedback(1)">
+    </form>
+</section>
+</body>
+</html>
